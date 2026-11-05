@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep the fictional simulator in a browser-state workspace component; never process file contents or connect remote systems, because this product is a visual demonstration.
+- Define visual roles and animations in the global design system and use existing UI controls for consistent interactions.
